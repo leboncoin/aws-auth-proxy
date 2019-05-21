@@ -133,7 +133,7 @@ func NewV4Signer(auth Auth, serviceName string, region Region) *V4Signer {
 		auth:        auth,
 		serviceName: serviceName,
 		region:      region,
-		IncludeXAmzContentSha256: false,
+		IncludeXAmzContentSha256: true,
 	}
 }
 
